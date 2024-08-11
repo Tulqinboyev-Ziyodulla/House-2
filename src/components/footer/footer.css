@@ -1,0 +1,10 @@
+@media (max-width:500px) {
+    .footer__p{
+        display: none;
+    }
+    
+}
+
+.txt {
+    padding: 0 100px;
+}
