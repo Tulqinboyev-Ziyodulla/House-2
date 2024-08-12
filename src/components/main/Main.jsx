@@ -55,7 +55,7 @@ const Main = () => {
 
   return (
     <div>
-      <select value={selectCategory} onChange={e => setSelectCategory(e.target.value)} name="" id="">
+      <select className=' ml-20 bg-slate-300 text-center outline-none text-xl' value={selectCategory} onChange={e => setSelectCategory(e.target.value)} name="" id="">
         <option value="">All</option>
         {categoryItems}
       </select>
